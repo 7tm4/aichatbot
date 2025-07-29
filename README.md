@@ -12,18 +12,5 @@ Built with **React + FastAPI + Groq + RAG + Whisper**.
 - LLM-powered meeting summarization  
 - Task extraction with owner & deadline  
 - Contextual memory using RAG (FAISS + HuggingFace)  
-- Speaker tagging & tone awareness  
-- Google Calendar sync *(coming soon)*  
-- Export to Slack, Notion, Email *(coming soon)*  
-- Meeting health score *(coming soon)*  
-
-## Project Structure
-agentic-bot/
-├── backend/ # FastAPI + Langchain RAG + Groq API
-│ ├── main.py
-│ └── past_meetings/
-├── frontend/ # React + Tailwind + ShadCN
-│ ├── src/
-│ └── index.tsx
-
+- Speaker tagging & tone awareness   
 
