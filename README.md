@@ -1,16 +1,15 @@
 # aichatbot
-# Agentic Meeting Assistant Bot
+# Agentic Meeting Bot
 
-An AI-powered agent that transforms **meeting transcripts** into:
-- Concise summaries  
-- Actionable tasks with deadlines & owners  
-- Context-aware insights using past meetings  
+An AI-powered assistant that extracts insights from meeting transcripts — including summaries, action items, key decisions, and more. Built using FastAPI (backend) and React + Tailwind + ShadCN (frontend).
 
-Built with **React + FastAPI + Groq + RAG + Whisper**.
 
-## Features
-- LLM-powered meeting summarization  
-- Task extraction with owner & deadline  
-- Contextual memory using RAG (FAISS + HuggingFace)  
-- Speaker tagging & tone awareness   
+##  Features
+
+- Summarizes meeting transcripts
+-  Extracts action items with owners and deadlines
+-  Identifies participants and meeting metadata
+-  Highlights key decisions
+-  Simple frontend interface to submit transcripts
+-  Secure API with environment variables
 
